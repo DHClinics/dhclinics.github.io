@@ -1,5 +1,6 @@
 ---
 layout: post
-title: LIBER Innovation award
+title: "LIBER Innovation award"
 published: true
 ---
+LIBER Innovation award
