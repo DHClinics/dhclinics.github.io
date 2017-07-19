@@ -1,0 +1,24 @@
+{% include header.html %}
+      <section itemscope itemtype="https://schema.org/Event" itemid="#this">
+          <h1 itemprop="name">{{ page.title }}</h1>
+          <p>Wanneer: <time itemprop="startdate" datetime="{{ page.startdate | date_to_xmlschema }}">{{ page.startdate | date: "%A %e %B %Y" }}</time></p>
+          <p>Waar: 
+          {% if page.location.room %}
+            <span itemscope itemprop="location" itemtype="https://schema.org/Place">
+              <span itemprop="name">{{ page.location.room }}</span>, 
+              <span itemprop="containedInPlace" itemscope itemtype="https://schema.org/Place">
+                <span itemprop="name">{{ page.location.building }}</span>
+                (<span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">{{ page.location.streetaddress }}</span>, <span itemprop="addressLocality">{{ page.location.city }}</span>
+                </span>)
+              </span>
+            </span>
+          {% else %}
+             volgt
+          {% endif %}
+          </p>
+      {{ content }}
+
+          {% if page.sponsor %}<p itemprop="sponsor" itemscope itemtype="https://schema.org/Organization">Deze dag wordt mede mogelijk gemaakt door de <span itemprop="name">{{ page.sponsor }}</span>.</p>{% endif %}
+      </section>
+{% include footer.html %}

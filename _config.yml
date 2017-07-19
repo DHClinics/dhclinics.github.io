@@ -1,3 +1,16 @@
 theme: jekyll-theme-minimal
 title: DHClinics
 description: "DHClinics: leading Dutch librarians into DH"
+tagline: "Leading Dutch librarians into DH"
+lang: nl-NL
+collections:
+  dag:
+    output: true
+    permalink: /:collection/:name
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+#      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"

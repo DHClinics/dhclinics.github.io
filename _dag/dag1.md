@@ -1,10 +1,17 @@
-# Dag 1: Digitalisering en databases
-
-Wanneer: dinsdag 5 september
-
-Waar: UB Utrecht, Uithof
-
-Dag 1: Digitalisering & databases
+---
+title: "Dag 1: Digitalisering en databases"
+layout: event
+location:
+  room: Bucheliuszaal
+  floor: 6e verdieping
+  building: UB Uithof
+  streetaddress: Heidelberglaan 3
+  city: Utrecht
+sponsor: KB
+startdate: 2017-09-05T09:30+02:00
+enddate: 2017-09-05T16:00+02:00
+registration: 
+---
 
 Tijdens dag 1 van de DH Clinics besteden we aandacht aan de eerste stap naar het doen van onderzoek met digitale bronnen.
 
@@ -16,10 +23,10 @@ Tijdens dag 1 van de DH Clinics besteden we aandacht aan de eerste stap naar het
 
 Na deze lezing weet u meer de volgende punten met betrekking tot digitalisering:
 
-    Processen
-    Auteursrecht
-    Technieken
-    Dataformaten
+- Processen
+- Auteursrecht
+- Technieken
+- Dataformaten
 
 11.00 - 11.15 - Pauze met koffie/thee
 
@@ -27,9 +34,9 @@ Na deze lezing weet u meer de volgende punten met betrekking tot digitalisering:
 
 Na deze lezing weet u meer over:
 
-    De verschillende types databases
-    De talen waarmee u kunt communiceren binnen de database
-    en wanneer welke het beste gebruikt kan worden
+- De verschillende types databases
+- De talen waarmee u kunt communiceren binnen de database
+- en wanneer welke het beste gebruikt kan worden
 
 12.00 - 13.00 - Lunch
 
@@ -37,4 +44,4 @@ Na deze lezing weet u meer over:
 
 Na deze workshop kunt u zelf een database inrichten en weet u met welke formaten u het beste kunt werken.
 
---> Voor de workshop is een eigen laptop met installatierechten noodzakelijk
+**--> Voor de workshop is een eigen laptop met installatierechten noodzakelijk**
