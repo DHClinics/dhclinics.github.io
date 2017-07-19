@@ -7,6 +7,10 @@ collections:
   dag:
     output: true
     permalink: /:collection/:name
+  mensen:
+    output: false
+  sessies:
+    output: false
 defaults:
   -
     scope:
