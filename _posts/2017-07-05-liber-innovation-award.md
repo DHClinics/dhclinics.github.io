@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LIBER Innovation award"
-published: true
+published: false
+author: michielcock
 ---
 LIBER Innovation award
