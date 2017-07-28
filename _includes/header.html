@@ -17,18 +17,10 @@
       <header>
         <h1><a href="/">{{ site.title }}</a></h1>
         <p>{{ site.tagline }}</p>
-	
+
         {% include dagen.html %}
-	
+
         {% include blog.html %}
-
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
 
         {% if site.show_downloads %}
           <ul class="boxes">
@@ -38,4 +30,3 @@
           </ul>
         {% endif %}
       </header>
-      
