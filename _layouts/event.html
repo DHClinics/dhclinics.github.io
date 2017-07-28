@@ -1,11 +1,12 @@
 {% include header.html %}
       <section itemscope itemtype="https://schema.org/Event" itemid="#this" vocab="https://schema.org/">
           <h1 itemprop="name">{{ page.title }}</h1>
-          <p>Wanneer: <time itemprop="startdate" datetime="{{ page.startdate | date_to_xmlschema }}">{{ page.startdate | date: "%A %e %B %Y, %k:%M" }}</time>-<time itemprop="enddate" datetime="{{ page.enddate | date_to_xmlschema }}">{{ page.enddate | date: "%k:%M" }}</time></p>
-          <p>Waar: 
+          <p>Wanneer: <time itemprop="startdate" datetime="{{ page.startdate | date_to_xmlschema }}">{{ page.startdate | date: "%A %e %B %Y, %k:%M" }}</time>-<time itemprop="enddate" datetime="{{ page.enddate | date_to_xmlschema }}">{{ page.enddate | date: "%k:%M" }}</time>
+              <br>
+              Waar: 
           {% if page.location.room %}
             <span itemscope itemprop="location" itemtype="https://schema.org/Place">
-              <span itemprop="name">{{ page.location.room }}, {{ page.location.building }}</span> 
+              <span itemprop="name">{{ page.location.room }}, {{ page.location.building }}</span>
               (<span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                   <span itemprop="streetAddress">{{ page.location.streetaddress }}</span>, <span itemprop="addressLocality">{{ page.location.city }}</span>
                 </span>)
