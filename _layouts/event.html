@@ -17,6 +17,7 @@
           </p>
       {{ content }}
 
+        {% include max-twee.html %}
           {% if page.sponsor %}<p itemprop="sponsor" itemscope itemtype="https://schema.org/Organization">Deze dag wordt mede mogelijk gemaakt door de <span itemprop="name">{{ page.sponsor }}</span>.</p>{% endif %}
       </section>
 {% include footer.html %}
