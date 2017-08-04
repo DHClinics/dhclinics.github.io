@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LIBER Innovation award"
-published: false
+published: true
 author: michielcock
 ---
 # LIBER Innovation award voor paper over DH Clinics
