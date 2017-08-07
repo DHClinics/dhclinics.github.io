@@ -1,5 +1,5 @@
 {% include header.html %}
-      <section itemscope itemtype="https://schema.org/Event" itemid="#this" vocab="https://schema.org/">
+      <section itemscope itemtype="https://schema.org/Event" itemid="#this">
           <h1 itemprop="name">{{ page.title }}</h1>
           <p>Wanneer: <time itemprop="startdate" datetime="{{ page.startdate | date_to_xmlschema }}">{{ page.startdate | date: "%A %e %B %Y, %k:%M" }}</time>-<time itemprop="enddate" datetime="{{ page.enddate | date_to_xmlschema }}">{{ page.enddate | date: "%k:%M" }}</time>
               <br>
@@ -15,9 +15,15 @@
              volgt
           {% endif %}
           </p>
+          {% if page.registration %}
+          <p class="aanmeldlink"><a href="https://www.eventbrite.nl/e/{{ page.registration}}" target="_blank" title="Registreer voor {{ page.title }} via Eventbrite">Meldt u aan voor {{ page.title }} via Eventbrite</a></p>
+          {% endif %}
       {{ content }}
 
         {% include max-twee.html %}
+          {% if page.registration %}
+          <p class="aanmeldlink"><a href="https://www.eventbrite.nl/e/{{ page.registration}}" target="_blank" title="Registreer voor {{ page.title }} via Eventbrite">Meldt u aan voor {{ page.title }} via Eventbrite</a></p>
+          {% endif %}
           {% if page.sponsor %}<p itemprop="sponsor" itemscope itemtype="https://schema.org/Organization">Deze dag wordt mede mogelijk gemaakt door de <span itemprop="name">{{ page.sponsor }}</span>.</p>{% endif %}
       </section>
 {% include footer.html %}
