@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sponsor gezocht"
+title: "Sponsors gezocht"
 published: true
 author: lottewilms
 ---
