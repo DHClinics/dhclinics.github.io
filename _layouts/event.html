@@ -24,6 +24,16 @@
           {% if page.registration %}
           <p class="aanmeldlink"><a href="https://www.eventbrite.nl/e/{{ page.registration}}" target="_blank" title="Registreer voor {{ page.title }} via Eventbrite">Meld u aan voor {{ page.title }} via Eventbrite</a></p>
           {% endif %}
-          {% if page.sponsor %}<p itemprop="sponsor" itemscope itemtype="https://schema.org/Organization">Deze dag wordt mede mogelijk gemaakt door de <span itemprop="name">{{ page.sponsor }}</span>.</p>{% endif %}
+          {% if page.sponsors %}<p>Deze dag wordt mede mogelijk gemaakt door:
+            <ul class="sponsors">
+            {% for sponsor in page.sponsors %}
+              {% assign org = site.data.orgs[sponsor] %}
+              <li itemprop="sponsor" itemscope itemtype="https://schema.org/Organization"> <span itemprop="name">{{ org.name }}</span> <img itemprop="logo" src="{{ site.url }}/assets/img/{{ org.logo }}" width="300" class="sponsor_logo"/></li>
+            {% endfor %}
+            </ul>
+              </p>
+          {% else %}
+            <p>Voor deze dag zijn we nog op zoek naar sponsoren. Als u interesse heeft, neem dan contact op via <a href="mailto:dhclinicsNL@gmail.com">dhclinicsNL@gmail.com</a>.</p>
+          {% endif %}
       </section>
 {% include footer.html %}

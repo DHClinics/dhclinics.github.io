@@ -12,3 +12,7 @@ nav ul {
     padding:0.5em;
     font-weight:bolder
 }
+
+img.sponsor_logo {
+    display:block
+}
