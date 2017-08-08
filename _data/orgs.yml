@@ -1,0 +1,28 @@
+kb:
+  acronym: KB
+  name: Koninklijke Bibliotheek
+  logo: kblogo.jpg
+  iri:
+ubl:
+  acronym: UBL
+  name: Universitaire Bibliotheken Leiden
+  logo: ubl.jpg
+  iri:
+ubvu:
+  acronym: UBVU
+  name: Universiteitsbibliotheek Vrije Universiteit Amsterdam
+  logo: ubvu.svg
+  iri:
+rsrm:
+  name: afdeling Research Services van het Rijksmuseum
+  logo: rijksmuseum.jpg
+  iri:
+  parent: rm
+rm:
+  logo: rijksmuseum.jpg
+cds:
+  name: Centre for Digital Scholarship
+  parent: ubl
+  acronym: CDS
+  iri:
+  homepage:
