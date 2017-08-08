@@ -3,26 +3,31 @@ kb:
   name: Koninklijke Bibliotheek
   logo: kblogo.jpg
   iri:
+  homepage: "https://www.kb.nl/"
 ubl:
   acronym: UBL
   name: Universitaire Bibliotheken Leiden
   logo: ubl.jpg
   iri:
+  homepage: "https://www.bibliotheek.universiteitleiden.nl/"
 ubvu:
   acronym: UBVU
   name: Universiteitsbibliotheek Vrije Universiteit Amsterdam
   logo: ubvu.svg
   iri:
+  homepage: "https://www.ub.vu.nl/"
 rsrm:
   name: afdeling Research Services van het Rijksmuseum
   logo: rijksmuseum.jpg
   iri:
   parent: rm
+  homepage: "https://www.rijksmuseum.nl/nl/onderzoek"
 rm:
   logo: rijksmuseum.jpg
+  homepage: "https://www.rijksmuseum.nl/"
 cds:
   name: Centre for Digital Scholarship
   parent: ubl
   acronym: CDS
   iri:
-  homepage:
+  homepage: "https://www.bibliotheek.universiteitleiden.nl/onderzoek-en-publiceren/centre-for-digital-scholarship"
