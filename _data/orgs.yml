@@ -31,3 +31,8 @@ cds:
   acronym: CDS
   iri:
   homepage: "https://www.bibliotheek.universiteitleiden.nl/onderzoek-en-publiceren/centre-for-digital-scholarship"
+ubu:
+  name: Universiteitsbibliotheek Utrecht
+  acronym: UBU
+  iri:
+  homepage: "https://www.uu.nl/universiteitsbibliotheek"
