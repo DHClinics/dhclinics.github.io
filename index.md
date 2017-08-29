@@ -2,7 +2,7 @@
 title: DH Clinics 2017
 ---
 
-De DH Clinics zijn een initiatief van Lotte Wilms (KB, [@lottewilms](https://twitter.com/lottewilms)), Ben Companjen (UB Leiden, [@bencomp](https://twitter.com/bencomp)) en Michiel Cock (UBVU, [@michielcock](https://twitter.com/michielcock)).
+De DH Clinics zijn een initiatief van Lotte Wilms (KB, [@lottewilms](https://twitter.com/lottewilms)), Ben Companjen (Centre for Digital Scholarship, UBL, [@bencomp](https://twitter.com/bencomp)) en Michiel Cock (UBVU, [@michielcock](https://twitter.com/michielcock)).
 
 ### Wat houdt het programma in?
 De DH Clinics is een trainingsprogramma voor bibliotheekmedewerkers om:
