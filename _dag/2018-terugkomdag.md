@@ -18,7 +18,7 @@ enddate: 2018-11-20T17:00+01:00
 
 10.40 - 11.20 - Keynote door Micah Vandegrift (Fullbright-Schuman Innovation Scholar bij UB Maastricht)
 
-11.20 - 12.30 - Presentaties over o.a. GIS, IIF en automatische metadata
+11.20 - 12.30 - Presentaties over o.a. GIS, IIIF en automatische metadata
 
 12.30 - 13.30 - Lunch
 
@@ -26,7 +26,7 @@ enddate: 2018-11-20T17:00+01:00
 
 14.30 - 15.00 - Pauze
 
-15.00 - 16.00 - Panelgesprek over DH en/in de bibliotheek met o.a. Marco de Niet (UB Leiden) en Saskia Scheltjens (Rijksmuseum)
+15.00 - 16.00 - Panelgesprek over DH en/in de bibliotheek met Marco de Niet (UB Leiden), Ingrid Wijk (UB Maastricht), Maria Heijne (UB UvA) en Saskia Scheltjens (Rijksmuseum)
 
 16.00 - 17.00 - Borrel
 

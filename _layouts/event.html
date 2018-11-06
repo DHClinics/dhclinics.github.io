@@ -20,7 +20,9 @@
           {% endif %}
       {{ content }}
 
-        {% include max-twee.html %}
+      {% if page.maxtwee %}
+      {% include max-twee.html %}
+      {% endif %}
           {% if page.registration %}
           <p class="aanmeldlink"><a href="https://www.eventbrite.nl/e/{{ page.registration}}" target="_blank" title="Registreer voor {{ page.title }} via Eventbrite">Meld u aan voor {{ page.title }} via Eventbrite</a></p>
           {% endif %}
