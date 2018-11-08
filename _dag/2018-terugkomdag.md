@@ -16,7 +16,9 @@ enddate: 2018-11-20T17:00+01:00
 
 10.30 - 10.40 - Welkom
 
-10.40 - 11.20 - Keynote door Micah Vandegrift (Fullbright-Schuman Innovation Scholar bij UB Maastricht)
+10.40 - 11.20 - Keynote door [Micah Vandegrift][micah] (Fullbright-Schuman Innovation Scholar bij UB Maastricht)
+
+[micah]: https://www.lib.ncsu.edu/staff/mlvandeg
 
 11.20 - 12.30 - Presentaties over o.a. GIS, IIIF en automatische metadata
 
